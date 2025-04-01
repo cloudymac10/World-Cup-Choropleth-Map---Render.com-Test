@@ -5,7 +5,7 @@ from dash import dcc, html
 import plotly.express as px
 from dash.dependencies import Input, Output
 # Read the dataset
-df = pd.read_csv("C:\\Users\\cloud\\OneDrive\\Desktop\\CP321\\CP321_A07\\fifa_world_cup_finals.csv")
+df = pd.read_csv("fifa_world_cup_finals.csv")
 
 # Initialize Dash app
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
