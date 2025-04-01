@@ -10,6 +10,7 @@ df = pd.read_csv("C:\\Users\\cloud\\OneDrive\\Desktop\\CP321\\CP321_A07\\fifa_wo
 # Initialize Dash app
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+server = app.server
 app.title = "FIFA World Cup Dashboard"
 
 # Count wins per country
